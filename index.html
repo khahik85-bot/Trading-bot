@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forex Signal System</title>
+</head>
+<body>
+
+<h2>Live Forex Signal Tool</h2>
+
+<label>Pair:</label>
+<select id="pair">
+    <option value="EUR/USD">EUR/USD</option>
+    <option value="GBP/USD">GBP/USD</option>
+    <option value="USD/JPY">USD/JPY</option>
+</select>
+
+<br><br>
+
+<label>Timeframe:</label>
+<select id="timeframe">
+    <option value="1min">1min</option>
+    <option value="5min">5min</option>
+    <option value="15min">15min</option>
+</select>
+
+<br><br>
+
+<button onclick="getSignal()">Get Signal</button>
+
+<h2 id="signal"></h2>
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
